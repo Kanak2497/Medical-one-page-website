@@ -1,0 +1,632 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Poltawski Nowy;
+    color: #103178;
+}
+
+a {
+    color: #103178;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.minih {
+    background-color: #103178;
+}
+
+.yellow {
+    text-align: center;
+    color: #d9ab43;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.plus {
+    float: left;
+}
+
+.cure {
+    float: left;
+    margin-top: 13px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.menu {
+    float: left;
+    width: 70%;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 12px 14px;
+    font-size: 16px;
+    position: relative;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(13, 118, 13);
+    height: 3px;
+    width: 0%;
+    left: 14px;
+    bottom: 9px;
+    transition: 0.3s;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+.menu li a:hover {
+    color: rgb(13, 118, 13);
+}
+
+.sidemenu {
+    float: left;
+}
+
+.section1 {
+    position: relative;
+}
+
+.banner {
+    background-color: rgb(16, 49, 120);
+    padding: 60px 0px 211px 34px;
+    margin: -12px 0px 0px 0px;
+}
+
+.hand {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    translate: -0% -0%;
+}
+
+.hand img {
+    width: 100%;
+}
+
+.medical {
+    font-size: 45px;
+    color: #fff;
+    width: 27%;
+    font-weight: 400;
+}
+
+.buy {
+    color: #fff;
+    font-size: 16px;
+}
+
+.price {
+    font-size: 45px;
+    color: #ffc800;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 22px;
+    padding: 25px;
+    color: #bbbbbb;
+}
+
+.banner button {
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #ffc800;
+    margin: 30px 0px;
+    padding: 16px 45px;
+    display: block;
+}
+
+.only {
+    /* border: 7px solid white; */
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    position: absolute;
+    padding: 39px;
+    font-size: 22px;
+    top: 40%;
+    right: 27.5%;
+    text-align: center;
+    background-color: #ffc800;
+    font-weight: bold;
+    translate: -67% -27%;
+}
+
+.only strong {
+    font-size: 40px;
+}
+
+.checkout {
+    text-align: center;
+    font-size: 30px;
+}
+
+.black {
+    padding: 16px 77px 16px 24px;
+    width: 52%;
+    float: left;
+}
+
+.black a {
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button:hover {
+    color: darkgreen;
+}
+
+.blackgloves {
+    float: left;
+}
+
+.blackgloves img {
+    width: 100%;
+}
+
+.one {
+    background-color: #f0f2f5;
+    float: left;
+    width: 32%;
+    margin: 5px;
+}
+
+.icons {
+    padding: 50px 57px 20px 44px;
+    float: left;
+}
+
+.icons i {
+    font-size: 45px;
+    text-align: center;
+}
+
+.icons i:hover {
+    color: darkgreen;
+    transform: rotatey(180deg);
+    transition: transform 0.9s;
+}
+
+.icons p {
+    font-size: 20px;
+}
+
+.section3 {
+    background-color: #f0f2f5;
+    padding-bottom: 50px;
+}
+
+.Antibacterial {
+    float: left;
+    width: 38%;
+}
+
+.Antibacterial h2 {
+    font-size: 50px;
+    padding: 90px 0px 10px 0px;
+    margin: 0px;
+}
+
+.Antibacterial p {
+    font-size: 21px;
+    margin: 0px;
+    padding: 18px 0px;
+}
+
+.Antibacterial span {
+    padding: 20px 20px 0px 0px;
+}
+
+.Antibacterial span i {
+    padding: 10px 10px 10px 0px;
+}
+
+.Antibacterial button {
+    display: block;
+    border-radius: 30px;
+    padding: 11px 20px;
+    background-color: #ffc800;
+    text-decoration: none;
+    margin: 25px 0px;
+}
+
+.utube {
+    float: left;
+    width: 62%;
+    padding: 80px 0px 0px 170px;
+}
+
+
+/*section4 starts*/
+
+.section4 {
+    padding-bottom: 50px;
+}
+
+.section4 h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.products {
+    border: 1px solid rgb(155, 151, 151);
+    width: 20%;
+    float: left;
+}
+
+.products img {
+    width: 100%;
+}
+
+.products small {
+    display: block;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.products strong {
+    font-size: 22px;
+    padding: 10px 10px;
+}
+
+.products i {
+    padding: 10px 0px 30px 0px;
+}
+
+.products i:first-child {
+    padding: 0px 0px 0px 10px;
+}
+
+
+/*section4 ends*/
+
+
+/*section5 starts*/
+
+.section5 {
+    background-color: #f0f2f5;
+}
+
+.section5 h4 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section5 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.italic {
+    float: left;
+    width: 33%;
+    padding: 85px;
+}
+
+.italic span {
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 95px;
+}
+
+.italic span:hover {
+    color: darkgreen;
+}
+
+.italic h6 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.italic aside {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*section5 ends*/
+
+
+/*section6  starts*/
+
+.section6 {
+    padding-bottom: 50px;
+}
+
+.section6 img {
+    transition: width 2s;
+}
+
+.section6 img:hover {
+    width: 380px;
+}
+
+.section6 h5 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section6 small {
+    display: block;
+    padding: 10px 0px;
+}
+
+.section6 p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.blog {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.blog img {
+    width: 100%;
+    height: 196px;
+    border-radius: 5px;
+}
+
+.middle {
+    margin: 0px 50px;
+}
+
+
+/*section6  ends*/
+
+
+/*section7  starts*/
+
+.section7 {
+    background-color: #f0f2f5;
+    padding-bottom: 50px;
+}
+
+.section7 i {
+    color: #d9ab43;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 25px;
+    margin-top: 20px;
+}
+
+.section7 h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 0px 0px;
+}
+
+.john {
+    background-color: #fff;
+    float: left;
+    width: 22%;
+    margin: 17px;
+    padding: 30px;
+}
+
+.smith {
+    margin: 17px 28px;
+}
+
+.john i {
+    font-size: 15px;
+    padding: 0px;
+}
+
+.john strong {
+    display: block;
+    padding: 0px 0px 20px 0px;
+}
+
+
+/*section7  ends*/
+
+
+/*section8  starts*/
+
+.section8 h6 {
+    font-size: 30px;
+    margin: 60px 0px 20px;
+}
+
+input[type=text] {
+    width: 32%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #f0f2f5;
+    padding: 12px 0px 12px 15px;
+    margin: 0px 14px 15px 0px
+}
+
+input[type=email] {
+    width: 32%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #f0f2f5;
+    padding: 12px 0px 12px 15px;
+    margin: 0px 14px 15px 0px
+}
+
+input[type=phone] {
+    width: 33%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #f0f2f5;
+    padding: 12px 0px 12px 15px;
+    margin: 0px 0px 15px 0px
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #f0f2f5;
+    padding: 12px 0px 12px 15px;
+    margin: 5px 0px 15px 0px;
+    display: block;
+}
+
+input[type=submit] {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    background-color: #ffc800;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
+    color: #fff;
+}
+
+
+/*section8  ends*/
+
+
+/*section9 starts*/
+
+.section9 {
+    background-color: #f0f2f5;
+    padding-bottom: 50px;
+}
+
+.section9 h3 {
+    font-size: 50px;
+    padding: 50px 0px 0px;
+    margin: 0px;
+}
+
+.section9 p {
+    padding: 0px 0px 30px;
+}
+
+.section9 aside {
+    font-size: 50px;
+    padding: 20px 0px;
+}
+
+.section9 aside a {
+    text-decoration: none;
+}
+
+.section9 small {
+    display: block;
+}
+
+.monday {
+    padding: 10px 0px;
+}
+
+.mail {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin: 20px 0px;
+    width: 48%;
+}
+
+.mail a {
+    text-decoration: none;
+}
+
+.socialmedia a {
+    padding: 6px 12px 6px 0px;
+    transition: width 2s;
+}
+
+.socialmedia a:hover {
+    color: rgb(107, 250, 85);
+    width: 300px;
+}
+
+.map {
+    float: left;
+    width: 30%;
+}
+
+.baroda {
+    padding: 50px 0px 60px 240px;
+    float: left;
+    width: 70%;
+}
+
+
+/*section9  ends*/
+
+
+/*section10 starts*/
+
+.section10 li {
+    list-style: none;
+}
+
+.section10 li a {
+    text-decoration: none;
+}
+
+.firstline li a :hover {
+    color: darkgreen;
+}
+
+.firstline {
+    float: left;
+    padding: 55px 100px 35px 0px;
+}
+
+.firstline li {
+    padding: 5px;
+}
+
+
+/*section10 ends*/
+
+
+/*section11 starts*/
+
+.section11 {
+    background-color: #103178;
+    text-align: center;
+}
+
+.section11 p {
+    color: #fff;
+    padding: 20px;
+}
+
+
+/*section11 ends*/
